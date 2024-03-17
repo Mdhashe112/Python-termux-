@@ -1,17 +1,11 @@
-use this tool to termux full setup 
+apt update && apt upgrade -y
 
- 1 apt update && apt upgrade-y
- 
+pkg install git
 
- 2 pkg install git 
+pkg install python
 
-3 pkg install python 
+git clone https://github.com/evandipro2004/TERMUX-SETUP
 
+cd TERMUX-SETUP
 
-
-
-4 git clone https://github.com/evandipro2004/TERMUX-SETUP
-
-4 cd TERMUX-SETUP
-
-5 python tsetup.py
+python tsetup.py
